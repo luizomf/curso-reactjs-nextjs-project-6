@@ -25,7 +25,7 @@ export const GlobalStyles = createGlobalStyle`
     color: ${({ theme }) => theme.colors.primary};
   }
 
-  p {
+  /* p {
     margin: ${({ theme }) => theme.spacings.medium} 0;
   }
 
@@ -41,5 +41,5 @@ export const GlobalStyles = createGlobalStyle`
   .table {
     width: 100%;
     overflow-y: auto;
-  }
+  } */
 `;
