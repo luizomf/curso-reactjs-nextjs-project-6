@@ -15,11 +15,14 @@ export const GlobalStyles = createGlobalStyle`
   body {
     font-size: 1.6rem;
     font-family: ${({ theme }) => theme.font.family.default};
+    color: ${({ theme }) => theme.colors.darkText};
   }
 
   h1, h2, h3, h4, h5, h6 {
-    font-family: ${({ theme }) => theme.font.family.secondary};
+    font-family: ${({ theme }) => theme.font.family.default};
     margin: ${({ theme }) => theme.spacings.large} 0;
+    font-weight: 800;
+    color: ${({ theme }) => theme.colors.primary};
   }
 
   p {
@@ -32,7 +35,7 @@ export const GlobalStyles = createGlobalStyle`
   }
 
   a {
-    color: ${({ theme }) => theme.colors.secondaryColor};
+    color: ${({ theme }) => theme.colors.secondary};
   }
 
   .table {
