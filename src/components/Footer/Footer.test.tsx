@@ -7,15 +7,8 @@ describe('<Footer />', () => {
     const { container } = renderTheme(<Footer footerHtml={'<h1>Olá</h1>'} />);
     expect(screen.getByRole('heading', { name: 'Olá' })).toBeInTheDocument();
     expect(container).toMatchInlineSnapshot(`
-      .c4 {
+      .c1 {
         font-size: 2.4rem;
-      }
-
-      .c2 {
-        max-width: 120rem;
-        margin: 0 auto;
-        padding: 3.2rem;
-        width: 100%;
       }
 
       .c0 {
@@ -29,29 +22,16 @@ describe('<Footer />', () => {
         text-decoration: none;
       }
 
-      .c0 .c3 {
-        font-size: 1.6rem;
-      }
-
-      .c0 .c1 {
-        padding-top: 0;
-        padding-bottom: 0;
-      }
-
       <div>
         <footer
           class="c0"
         >
           <div
-            class="c1 c2"
+            class="c1"
           >
-            <div
-              class="c3 c4"
-            >
-              <h1>
-                Olá
-              </h1>
-            </div>
+            <h1>
+              Olá
+            </h1>
           </div>
         </footer>
       </div>

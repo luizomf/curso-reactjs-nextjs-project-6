@@ -1,15 +1,15 @@
 import { screen } from '@testing-library/react';
 import { renderTheme } from '../../styles/render-theme';
-import { TextComponent } from '.';
+import { HtmlContent } from '.';
 
-describe('<TextComponent />', () => {
+describe('<HtmlContent />', () => {
   it('should render a text', () => {
-    renderTheme(<TextComponent>Children</TextComponent>);
+    renderTheme(<HtmlContent html={'<b>Children</b>'} />);
     expect(screen.getByText('Children')).toBeInTheDocument();
   });
 
   it('should match snapshot', () => {
-    const { container } = renderTheme(<TextComponent>Children</TextComponent>);
+    const { container } = renderTheme(<HtmlContent html={'<b>Children</b>'} />);
     expect(container.firstChild).toMatchInlineSnapshot(`
       .c0 {
         font-size: 2.4rem;
@@ -18,7 +18,9 @@ describe('<TextComponent />', () => {
       <div
         class="c0"
       >
-        Children
+        <b>
+          Children
+        </b>
       </div>
     `);
   });
