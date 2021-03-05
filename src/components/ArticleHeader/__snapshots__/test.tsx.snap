@@ -30,7 +30,8 @@ exports[`<ArticleHeader /> should render heading, excerpt, cover img and meta 1`
 
 .c2 {
   color: #000000;
-  font-size: 4.0rem;
+  line-height: 1.2;
+  font-size: 6.4rem;
   text-transform: none;
 }
 
@@ -47,12 +48,19 @@ exports[`<ArticleHeader /> should render heading, excerpt, cover img and meta 1`
 
 .c3 {
   margin: 2.4rem 0;
+  font-size: 2.4rem;
 }
 
 .c4 {
   max-width: 100%;
   display: block;
   margin-bottom: 2.4rem;
+}
+
+@media (max-width:768px) {
+  .c2 {
+    font-size: 4.0rem;
+  }
 }
 
 <div>
