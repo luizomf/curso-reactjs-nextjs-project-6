@@ -1,0 +1,126 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ArticleHeader /> should render heading, excerpt, cover img and meta 1`] = `
+.c5 {
+  font-size: 1.6rem;
+  color: #AAAAAA;
+  font-style: italic;
+}
+
+.c5 .categories span::after {
+  content: ', ';
+}
+
+.c5 .categories span:last-child::after {
+  content: '';
+}
+
+.c5 a {
+  color: #dc143c;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.c5 a:hover {
+  -webkit-filter: brightness(50%);
+  filter: brightness(50%);
+}
+
+.c2 {
+  color: #000000;
+  font-size: 4.0rem;
+  text-transform: none;
+}
+
+.c0 {
+  padding-bottom: 4.0rem;
+  margin-bottom: 4.0rem;
+  border-bottom: 0.1rem solid #DDDDDD;
+}
+
+.c0 .c1 {
+  margin: 0;
+  margin-bottom: 2.4rem;
+}
+
+.c3 {
+  margin: 2.4rem 0;
+}
+
+.c4 {
+  max-width: 100%;
+  display: block;
+  margin-bottom: 2.4rem;
+}
+
+<div>
+  <header
+    class="c0"
+  >
+    <h1
+      class="c1 c2"
+    >
+      Vis nobis veritus maluisset id, nonumy adversarium
+    </h1>
+    <p
+      class="c3"
+    >
+      Fugit aliquip erroribus eu eam, an mel vidit doctus. Vis nobis veritus maluisset id, nonumy adversarium neglegentur est ut. Tation persius pri eu, modo minim fastidii mei no. Ad tota pertinax definiebas eam.
+    </p>
+    <img
+      alt="Vis nobis veritus maluisset id, nonumy adversarium"
+      class="c4"
+      src="https://res.cloudinary.com/dlizakp2a/image/upload/v1614698965/Ubuntu_gel_by_Midge_Mantissa_Sinnaeve_7caea7ddb4.jpg"
+    />
+    <div
+      class="c5"
+    >
+      <p>
+        <span>
+          Por 
+        </span>
+        <a
+          href="/author/otavio-miranda"
+        >
+          Otávio Miranda
+        </a>
+        <span
+          class="separator"
+        >
+           | 
+        </span>
+        <time
+          datetime="2020-04-20"
+        >
+          19 de abr. de 2020
+        </time>
+        <span
+          class="separator"
+        >
+           | 
+        </span>
+        <span
+          class="categories"
+        >
+          <span>
+            <a
+              href="/category/java-script"
+            >
+              JavaScript
+            </a>
+          </span>
+          <span>
+            <a
+              href="/category/react"
+            >
+              React
+            </a>
+          </span>
+        </span>
+      </p>
+    </div>
+  </header>
+</div>
+`;
