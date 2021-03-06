@@ -1,74 +1,23 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<Post /> should render header, excerpt, cover, metadata and post 1`] = `
-.c5 {
+exports[
+  `<Post /> should render header, excerpt, cover, metadata and post 1`
+] = `
+.c6 {
   font-size: 1.6rem;
   color: #AAAAAA;
   font-style: italic;
 }
 
-.c5 .categories span::after {
+.c6 .categories span::after {
   content: ', ';
 }
 
-.c5 .categories span:last-child::after {
+.c6 .categories span:last-child::after {
   content: '';
 }
 
-.c5 a {
-  color: #dc143c;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  -webkit-transition: all 300ms ease-in-out;
-  transition: all 300ms ease-in-out;
-}
-
-.c5 a:hover {
-  -webkit-filter: brightness(50%);
-  filter: brightness(50%);
-}
-
-.c2 {
-  color: #000000;
-  line-height: 1.2;
-  font-size: 6.4rem;
-  text-transform: none;
-}
-
-.c0 {
-  padding-bottom: 4.0rem;
-  margin-bottom: 4.0rem;
-  border-bottom: 0.1rem solid #DDDDDD;
-}
-
-.c0 .c1 {
-  margin: 0;
-  margin-bottom: 2.4rem;
-}
-
-.c3 {
-  margin: 2.4rem 0;
-  font-size: 2.4rem;
-}
-
-.c4 {
-  max-width: 100%;
-  display: block;
-  margin-bottom: 2.4rem;
-}
-
-.c6 {
-  font-size: calc(1.6rem + 0.2rem);
-  line-height: 1.5;
-}
-
-.c6 p {
-  margin: 2.4rem 0;
-}
-
-.c6 a,
-.c6 a:visited,
-.c6 a:link {
+.c6 a {
   color: #dc143c;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -81,7 +30,60 @@ exports[`<Post /> should render header, excerpt, cover, metadata and post 1`] = 
   filter: brightness(50%);
 }
 
-.c6 code {
+.c3 {
+  color: #000000;
+  line-height: 1.2;
+  font-size: 6.4rem;
+  text-transform: none;
+}
+
+.c1 {
+  padding-bottom: 4.0rem;
+  margin-bottom: 4.0rem;
+  border-bottom: 0.1rem solid #DDDDDD;
+}
+
+.c1 .c2 {
+  margin: 0;
+  margin-bottom: 2.4rem;
+}
+
+.c4 {
+  margin: 2.4rem 0;
+  font-size: 2.4rem;
+}
+
+.c5 {
+  max-width: 100%;
+  display: block;
+  margin-bottom: 2.4rem;
+}
+
+.c8 {
+  font-size: calc(1.6rem + 0.2rem);
+  line-height: 1.5;
+}
+
+.c8 p {
+  margin: 2.4rem 0;
+}
+
+.c8 a,
+.c8 a:visited,
+.c8 a:link {
+  color: #dc143c;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.c8 a:hover {
+  -webkit-filter: brightness(50%);
+  filter: brightness(50%);
+}
+
+.c8 code {
   font-family: monospace;
   color: #dc143c;
   font-size: 1.6rem;
@@ -90,7 +92,7 @@ exports[`<Post /> should render header, excerpt, cover, metadata and post 1`] = 
   margin: 0.2rem;
 }
 
-.c6 pre {
+.c8 pre {
   background: #000000;
   padding: 2.4rem;
   font-family: monospace;
@@ -101,63 +103,63 @@ exports[`<Post /> should render header, excerpt, cover, metadata and post 1`] = 
   font-size: 1.6rem;
 }
 
-.c6 pre code {
+.c8 pre code {
   color: inherit;
   background: inherit;
 }
 
-.c6 img {
+.c8 img {
   max-width: 100%;
 }
 
-.c6 .image {
+.c8 .image {
   background: #DDDDDD;
   line-height: 0;
   margin: 2.4rem 0;
 }
 
-.c6 .image figcaption {
+.c8 .image figcaption {
   font-size: 1.6rem;
   padding: 1.6rem;
   text-align: center;
   line-height: 1.3;
 }
 
-.c6 .image-style-side {
+.c8 .image-style-side {
   max-width: 50%;
   float: right;
   margin: 2.4rem 0;
 }
 
-.c6 hr {
+.c8 hr {
   border: none;
   border-bottom: 0.1rem solid #DDDDDD;
 }
 
-.c6 ul,
-.c6 ol {
+.c8 ul,
+.c8 ol {
   margin: 2.4rem 4.0rem;
 }
 
-.c6 .table {
+.c8 .table {
   width: 100%;
   overflow: hidden;
   overflow-x: auto;
 }
 
-.c6 table {
+.c8 table {
   width: 100%;
   border-collapse: collapse;
   margin: 2.4rem 0;
 }
 
-.c6 table td,
-.c6 table th {
+.c8 table td,
+.c8 table th {
   padding: 1.6rem;
   border: 0.1rem solid #DDDDDD;
 }
 
-.c6 blockquote {
+.c8 blockquote {
   border-left: 0.5rem solid #dc143c;
   color: #AAAAAA;
   -webkit-filter: brightness(80%);
@@ -167,21 +169,47 @@ exports[`<Post /> should render header, excerpt, cover, metadata and post 1`] = 
   margin: 2.4rem;
 }
 
+.c0 {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+  max-width: 96rem;
+}
+
+.c7 {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+  max-width: 80rem;
+}
+
 @media (max-width:768px) {
-  .c2 {
+  .c3 {
     font-size: 4.0rem;
   }
 }
 
 @media (max-width:768px) {
-  .c6 {
+  .c8 {
     font-size: 2rem;
   }
 
-  .c6 .image-style-side {
+  .c8 .image-style-side {
     max-width: 100%;
     float: none;
     margin: 0;
+  }
+}
+
+@media (max-width:768px) {
+  .c0 {
+    padding: 0 calc(3.2rem / 2);
+  }
+}
+
+@media (max-width:768px) {
+  .c7 {
+    padding: 0 calc(3.2rem / 2);
   }
 }
 
@@ -189,111 +217,118 @@ exports[`<Post /> should render header, excerpt, cover, metadata and post 1`] = 
   <article
     class=""
   >
-    <header
+    <div
       class="c0"
     >
-      <h1
-        class="c1 c2"
+      <header
+        class="c1"
       >
-        Vis nobis veritus maluisset id, nonumy adversarium
-      </h1>
-      <p
-        class="c3"
-      >
-        Fugit aliquip erroribus eu eam, an mel vidit doctus. Vis nobis veritus maluisset id, nonumy adversarium neglegentur est ut. Tation persius pri eu, modo minim fastidii mei no. Ad tota pertinax definiebas eam.
-      </p>
-      <img
-        alt="Vis nobis veritus maluisset id, nonumy adversarium"
-        class="c4"
-        src="https://res.cloudinary.com/dlizakp2a/image/upload/v1614698965/Ubuntu_gel_by_Midge_Mantissa_Sinnaeve_7caea7ddb4.jpg"
-      />
+        <h1
+          class="c2 c3"
+        >
+          Vis nobis veritus maluisset id, nonumy adversarium
+        </h1>
+        <p
+          class="c4"
+        >
+          Fugit aliquip erroribus eu eam, an mel vidit doctus. Vis nobis veritus maluisset id, nonumy adversarium neglegentur est ut. Tation persius pri eu, modo minim fastidii mei no. Ad tota pertinax definiebas eam.
+        </p>
+        <img
+          alt="Vis nobis veritus maluisset id, nonumy adversarium"
+          class="c5"
+          src="https://res.cloudinary.com/dlizakp2a/image/upload/v1614698965/Ubuntu_gel_by_Midge_Mantissa_Sinnaeve_7caea7ddb4.jpg"
+        />
+        <div
+          class="c6"
+        >
+          <p>
+            <span>
+              Por 
+            </span>
+            <a
+              href="/author/otavio-miranda"
+            >
+              Otávio Miranda
+            </a>
+            <span
+              class="separator"
+            >
+               | 
+            </span>
+            <time
+              datetime="2020-04-20"
+            >
+              19 de abr. de 2020
+            </time>
+            <span
+              class="separator"
+            >
+               | 
+            </span>
+            <span
+              class="categories"
+            >
+              <span>
+                <a
+                  href="/category/java-script"
+                >
+                  JavaScript
+                </a>
+              </span>
+              <span>
+                <a
+                  href="/category/react"
+                >
+                  React
+                </a>
+              </span>
+            </span>
+          </p>
+        </div>
+      </header>
+    </div>
+    <div
+      class="c7"
+    >
       <div
-        class="c5"
+        class="c8"
       >
         <p>
-          <span>
-            Por 
-          </span>
-          <a
-            href="/author/otavio-miranda"
-          >
+          Nostro 
+          <strong>
+            definitiones
+          </strong>
+           (
+          <i>
+            React
+          </i>
+          ) sed cu - 
+          <u>
             Otávio Miranda
+          </u>
+          . Sea 
+          <code>
+            useEffect
+          </code>
+          , useState dicat fabulas 
+          <a
+            href="https://gist.github.com/luizomf/e7cf0c3d172801225cce694681ecb0ad"
+          >
+            consetetur
           </a>
-          <span
-            class="separator"
+           no, odio deseruisse assueverit mei eu, vis probo nonumes molestie id. Ipsum movet liberavisse an mea, diceret vituperata ne his, delenit apeirian quo ea. Imperdiet percipitur te eos. Per ludus aliquam cu. 
+          <a
+            href="https://gist.github.com/luizomf/e7cf0c3d172801225cce694681ecb0ad"
           >
-             | 
-          </span>
-          <time
-            datetime="2020-04-20"
-          >
-            19 de abr. de 2020
-          </time>
-          <span
-            class="separator"
-          >
-             | 
-          </span>
-          <span
-            class="categories"
-          >
-            <span>
-              <a
-                href="/category/java-script"
-              >
-                JavaScript
-              </a>
-            </span>
-            <span>
-              <a
-                href="/category/react"
-              >
-                React
-              </a>
-            </span>
-          </span>
+            Eos ex tincidunt necessitatibus, timeam theophrastus mel cu
+          </a>
+          . La.
         </p>
-      </div>
-    </header>
-    <div
-      class="c6"
-    >
-      <p>
-        Nostro 
-        <strong>
-          definitiones
-        </strong>
-         (
-        <i>
-          React
-        </i>
-        ) sed cu - 
-        <u>
-          Otávio Miranda
-        </u>
-        . Sea 
-        <code>
-          useEffect
-        </code>
-        , useState dicat fabulas 
-        <a
-          href="https://gist.github.com/luizomf/e7cf0c3d172801225cce694681ecb0ad"
-        >
-          consetetur
-        </a>
-         no, odio deseruisse assueverit mei eu, vis probo nonumes molestie id. Ipsum movet liberavisse an mea, diceret vituperata ne his, delenit apeirian quo ea. Imperdiet percipitur te eos. Per ludus aliquam cu. 
-        <a
-          href="https://gist.github.com/luizomf/e7cf0c3d172801225cce694681ecb0ad"
-        >
-          Eos ex tincidunt necessitatibus, timeam theophrastus mel cu
-        </a>
-        . La.
-      </p>
-      <pre>
-        <code
-          class="language-plaintext"
-        >
-          import { useEffect, useRef, useState } from 'react';
+        <pre>
+          <code
+            class="language-plaintext"
+          >
+            import { useEffect, useRef, useState } from 'react';
 
 const useMyHook = (cb, delay = 1000) =&gt; {
   const savedCb = useRef();
@@ -310,345 +345,346 @@ const useMyHook = (cb, delay = 1000) =&gt; {
     return () =&gt; clearInterval(interval);
   }, [delay]);
 };
-        </code>
-      </pre>
-      <p>
-        Qui eu 
-        <i>
-          mutat
-        </i>
-         exerci 
-        <span
-          style="background-color:hsl(60,75%,60%);"
-        >
-          dolores
-        </span>
-        , his no 
-        <span
-          style="color:hsl(270,75%,60%);"
-        >
-          repudiare
-        </span>
-         constituam 
-        <s>
-          accommodare
-        </s>
-        , vis ea sint 
-        <u>
-          tempor
-        </u>
-         eirmod. In mei eruditi moderatius, ex per iudico essent repudiandae. In vis vidisse menandri, an has repudiare disputationi delicatissimi. In has wisi justo postulant. Ei viderer ornatus mel, usu an partiendo tincidunt, ea eum brute ullamcorper.
-      </p>
-      <p>
-        10
-        <sup>
-          2
-        </sup>
-        *5
-        <sup>
-          2
-        </sup>
-         - H
-        <sub>
-          2
-        </sub>
-        0
-      </p>
-      <p
-        style="text-align:center;"
-      >
-        <strong>
-          Center: 
-        </strong>
-        Abhorreant reformidans eum an, per equidem repudiandae no, ex cum elitr argumentum persequeris. In eam consul theophrastus delicatissimi, lobortis rationibus efficiendi mea ei, nam natum dolore scripserit ea. Sit partiendo eloquentiam ne. Sea no autem dolores, ridens gloriatur mel cu. Munere nullam epicuri his id, dicam definiebas deterruisset eu vim. Ea veritus deleniti usu, nam ei idque choro volumus, ex nisl aliquam bonorum eam.
-      </p>
-      <p>
-        Fugit aliquip erroribus eu eam, an mel vidit doctus. Vis nobis veritus maluisset id, nonumy adversarium neglegentur est ut. Tation persius pri eu, modo minim fastidii mei no. Ad tota pertinax definiebas eam.
-      </p>
-      <p
-        style="text-align:right;"
-      >
-        <strong>
-          Right:
-        </strong>
-         Mel in lorem feugiat, tation dolore et eum. Id has utamur albucius molestiae. Dico justo maiestatis ei mei, labitur laboramus voluptatum nam ut. Saperet propriae nec an.
-      </p>
-      <p>
-        Quod oblique mei ne, cetero delicatissimi sea cu, cu est harum dicit verterem. Tota forensibus ut usu, luptatum dignissim persecuti vel ex. Mea nostrud instructior cu, et referrentur theophrastus eum. Pro in iuvaret senserit. In persius explicari conceptam nec, in populo ponderum consequat vis. Gloriatur conclusionemque no qui, vitae nominati nec te, laoreet torquatos accommodare ex qui. Eu natum mediocritatem eos, cum ex alia oportere.
-      </p>
-      <p
-        style="text-align:justify;"
-      >
-        <strong>
-          Justify:
-        </strong>
-         Cu vis nonumes petentium disputationi, invidunt aliquando ex ius, ocurreret suscipiantur conclusionemque eu qui. Probo nemore ut est. Et eam dicta oratio eligendi. Quem dicta dolore vel et, at reque gloriatur definitionem sed.
-      </p>
-      <p>
-        Nec simul ullamcorper at. Mea possit dolores persecuti te, ei quidam apeirian quo. Has quas corpora ne. Ius ad malis iusto delenit, sit ferri idque ex.
-      </p>
-      <blockquote>
+          </code>
+        </pre>
         <p>
-          Blockquote: Et sed legere rationibus, vitae evertitur ad eam. Eu amet vero officiis vis. Ad nullam pericula neglegentur sit, vix ei regione legendos argumentum. Mei an quas convenire, nobis dicunt mei ut. Pro no debet referrentur, ei est falli libris. Eu per summo salutandi hendrerit, salutatus democritum interesset nec ut. Wisi lobortis incorrupte ei mea, explicari interpretaris has et.
+          Qui eu 
+          <i>
+            mutat
+          </i>
+           exerci 
+          <span
+            style="background-color:hsl(60,75%,60%);"
+          >
+            dolores
+          </span>
+          , his no 
+          <span
+            style="color:hsl(270,75%,60%);"
+          >
+            repudiare
+          </span>
+           constituam 
+          <s>
+            accommodare
+          </s>
+          , vis ea sint 
+          <u>
+            tempor
+          </u>
+           eirmod. In mei eruditi moderatius, ex per iudico essent repudiandae. In vis vidisse menandri, an has repudiare disputationi delicatissimi. In has wisi justo postulant. Ei viderer ornatus mel, usu an partiendo tincidunt, ea eum brute ullamcorper.
         </p>
-      </blockquote>
-      <p>
-        A new line:
-      </p>
-      <hr />
-      <p>
-        Now keep going…
-      </p>
-      <figure
-        class="image"
-      >
-        <a
-          href="https://gist.github.com/luizomf/e7cf0c3d172801225cce694681ecb0ad"
+        <p>
+          10
+          <sup>
+            2
+          </sup>
+          *5
+          <sup>
+            2
+          </sup>
+           - H
+          <sub>
+            2
+          </sub>
+          0
+        </p>
+        <p
+          style="text-align:center;"
+        >
+          <strong>
+            Center: 
+          </strong>
+          Abhorreant reformidans eum an, per equidem repudiandae no, ex cum elitr argumentum persequeris. In eam consul theophrastus delicatissimi, lobortis rationibus efficiendi mea ei, nam natum dolore scripserit ea. Sit partiendo eloquentiam ne. Sea no autem dolores, ridens gloriatur mel cu. Munere nullam epicuri his id, dicam definiebas deterruisset eu vim. Ea veritus deleniti usu, nam ei idque choro volumus, ex nisl aliquam bonorum eam.
+        </p>
+        <p>
+          Fugit aliquip erroribus eu eam, an mel vidit doctus. Vis nobis veritus maluisset id, nonumy adversarium neglegentur est ut. Tation persius pri eu, modo minim fastidii mei no. Ad tota pertinax definiebas eam.
+        </p>
+        <p
+          style="text-align:right;"
+        >
+          <strong>
+            Right:
+          </strong>
+           Mel in lorem feugiat, tation dolore et eum. Id has utamur albucius molestiae. Dico justo maiestatis ei mei, labitur laboramus voluptatum nam ut. Saperet propriae nec an.
+        </p>
+        <p>
+          Quod oblique mei ne, cetero delicatissimi sea cu, cu est harum dicit verterem. Tota forensibus ut usu, luptatum dignissim persecuti vel ex. Mea nostrud instructior cu, et referrentur theophrastus eum. Pro in iuvaret senserit. In persius explicari conceptam nec, in populo ponderum consequat vis. Gloriatur conclusionemque no qui, vitae nominati nec te, laoreet torquatos accommodare ex qui. Eu natum mediocritatem eos, cum ex alia oportere.
+        </p>
+        <p
+          style="text-align:justify;"
+        >
+          <strong>
+            Justify:
+          </strong>
+           Cu vis nonumes petentium disputationi, invidunt aliquando ex ius, ocurreret suscipiantur conclusionemque eu qui. Probo nemore ut est. Et eam dicta oratio eligendi. Quem dicta dolore vel et, at reque gloriatur definitionem sed.
+        </p>
+        <p>
+          Nec simul ullamcorper at. Mea possit dolores persecuti te, ei quidam apeirian quo. Has quas corpora ne. Ius ad malis iusto delenit, sit ferri idque ex.
+        </p>
+        <blockquote>
+          <p>
+            Blockquote: Et sed legere rationibus, vitae evertitur ad eam. Eu amet vero officiis vis. Ad nullam pericula neglegentur sit, vix ei regione legendos argumentum. Mei an quas convenire, nobis dicunt mei ut. Pro no debet referrentur, ei est falli libris. Eu per summo salutandi hendrerit, salutatus democritum interesset nec ut. Wisi lobortis incorrupte ei mea, explicari interpretaris has et.
+          </p>
+        </blockquote>
+        <p>
+          A new line:
+        </p>
+        <hr />
+        <p>
+          Now keep going…
+        </p>
+        <figure
+          class="image"
+        >
+          <a
+            href="https://gist.github.com/luizomf/e7cf0c3d172801225cce694681ecb0ad"
+          >
+            <img
+              alt="O alt text da imagem"
+              src="https://res.cloudinary.com/dlizakp2a/image/upload/v1614696630/Frozen_sunset_on_the_lake_by_Manuel_Arslanyan_9f9cd8ea10.jpg"
+            />
+          </a>
+          <figcaption>
+            Aqui está uma imagem
+          </figcaption>
+        </figure>
+        <p>
+          Munere euripidis an sed, usu ne consul soluta utamur. Bonorum equidem placerat eu cum, tantas quidam duo et. Pro soleat quaestio ne, ut nam wisi vocibus inciderint, ex his maiorum mnesarchum. Et est wisi primis, id vel odio alienum voluptatibus. Veri doctus offendit vim ea. Has nemore prompta inciderint ei, no sea expetendis dissentiet. Copiosae delicatissimi an sea, id cum agam clita nostro, tale tincidunt delicatissimi ei eos.
+        </p>
+        <figure
+          class="image image-style-side"
         >
           <img
-            alt="O alt text da imagem"
+            alt="Uma imagem à direita"
             src="https://res.cloudinary.com/dlizakp2a/image/upload/v1614696630/Frozen_sunset_on_the_lake_by_Manuel_Arslanyan_9f9cd8ea10.jpg"
           />
-        </a>
-        <figcaption>
-          Aqui está uma imagem
-        </figcaption>
-      </figure>
-      <p>
-        Munere euripidis an sed, usu ne consul soluta utamur. Bonorum equidem placerat eu cum, tantas quidam duo et. Pro soleat quaestio ne, ut nam wisi vocibus inciderint, ex his maiorum mnesarchum. Et est wisi primis, id vel odio alienum voluptatibus. Veri doctus offendit vim ea. Has nemore prompta inciderint ei, no sea expetendis dissentiet. Copiosae delicatissimi an sea, id cum agam clita nostro, tale tincidunt delicatissimi ei eos.
-      </p>
-      <figure
-        class="image image-style-side"
-      >
-        <img
-          alt="Uma imagem à direita"
-          src="https://res.cloudinary.com/dlizakp2a/image/upload/v1614696630/Frozen_sunset_on_the_lake_by_Manuel_Arslanyan_9f9cd8ea10.jpg"
-        />
-        <figcaption>
-          Uma imagem à direita
-        </figcaption>
-      </figure>
-      <p>
-        Munere euripidis an sed, usu ne consul soluta utamur. Bonorum equidem placerat eu cum, tantas quidam duo et. Pro soleat quaestio ne, ut nam wisi vocibus inciderint, ex his maiorum mnesarchum. Et est wisi primis, id vel odio alienum voluptatibus. Veri doctus offendit vim ea. Has nemore prompta inciderint ei, no sea expetendis dissentiet. Copiosae delicatissimi an sea, id cum agam clita nostro, tale tincidunt delicatissimi ei eos.
-      </p>
-      <p>
-        Munere euripidis an sed, usu ne consul soluta utamur. Bonorum equidem placerat eu cum, tantas quidam duo et. Pro soleat quaestio ne, ut nam wisi vocibus inciderint, ex his maiorum mnesarchum. Et est wisi primis, id vel odio alienum voluptatibus. Veri doctus offendit vim ea. Has nemore prompta inciderint ei, no sea expetendis dissentiet. Copiosae delicatissimi an sea, id cum agam clita nostro, tale tincidunt delicatissimi ei eos.
-      </p>
-      <p>
-        Solum consul scripserit in duo, an sit postea denique percipit. Facer ignota consequat nec ei, idque etiam corrumpit sit ut. In mucius definitionem quo, vis an nisl diam appellantur, hendrerit comprehensam ea per. Vix saepe fierent ut.
-      </p>
-      <p>
-        Cu mei summo copiosae. Et vim quaestio partiendo. Quot praesent imperdiet at duo. Sit probo causae ei. Ad ius nemore eruditi.
-      </p>
-      <p>
-        Mei in qualisque disputando. Adipisci philosophia et sed, mel diceret patrioque sententiae ea, iriure posidonium consectetuer ad eam. Nobis reprimique duo in, eam corpora mandamus ex. In quod euismod eum, ne habemus cotidieque necessitatibus cum. Liber recteque duo no, ludus reprehendunt has an.
-      </p>
-      <p>
-        Solum consul scripserit in duo, an sit postea denique percipit. Facer ignota consequat nec ei, idque etiam corrumpit sit ut. In mucius definitionem quo, vis an nisl diam appellantur, hendrerit comprehensam ea per. Vix saepe fierent ut.
-      </p>
-      <p>
-        Cu mei summo copiosae. Et vim quaestio partiendo. Quot praesent imperdiet at duo. Sit probo causae ei. Ad ius nemore eruditi.
-      </p>
-      <p>
-        Mei in qualisque disputando. Adipisci philosophia et sed, mel diceret patrioque sententiae ea, iriure posidonium consectetuer ad eam. Nobis reprimique duo in, eam corpora mandamus ex. In quod euismod eum, ne habemus cotidieque necessitatibus cum. Liber recteque duo no, ludus reprehendunt has an.
-      </p>
-      <p>
-        Bullet:
-      </p>
-      <ul>
-        <li>
+          <figcaption>
+            Uma imagem à direita
+          </figcaption>
+        </figure>
+        <p>
+          Munere euripidis an sed, usu ne consul soluta utamur. Bonorum equidem placerat eu cum, tantas quidam duo et. Pro soleat quaestio ne, ut nam wisi vocibus inciderint, ex his maiorum mnesarchum. Et est wisi primis, id vel odio alienum voluptatibus. Veri doctus offendit vim ea. Has nemore prompta inciderint ei, no sea expetendis dissentiet. Copiosae delicatissimi an sea, id cum agam clita nostro, tale tincidunt delicatissimi ei eos.
+        </p>
+        <p>
+          Munere euripidis an sed, usu ne consul soluta utamur. Bonorum equidem placerat eu cum, tantas quidam duo et. Pro soleat quaestio ne, ut nam wisi vocibus inciderint, ex his maiorum mnesarchum. Et est wisi primis, id vel odio alienum voluptatibus. Veri doctus offendit vim ea. Has nemore prompta inciderint ei, no sea expetendis dissentiet. Copiosae delicatissimi an sea, id cum agam clita nostro, tale tincidunt delicatissimi ei eos.
+        </p>
+        <p>
+          Solum consul scripserit in duo, an sit postea denique percipit. Facer ignota consequat nec ei, idque etiam corrumpit sit ut. In mucius definitionem quo, vis an nisl diam appellantur, hendrerit comprehensam ea per. Vix saepe fierent ut.
+        </p>
+        <p>
+          Cu mei summo copiosae. Et vim quaestio partiendo. Quot praesent imperdiet at duo. Sit probo causae ei. Ad ius nemore eruditi.
+        </p>
+        <p>
           Mei in qualisque disputando. Adipisci philosophia et sed, mel diceret patrioque sententiae ea, iriure posidonium consectetuer ad eam. Nobis reprimique duo in, eam corpora mandamus ex. In quod euismod eum, ne habemus cotidieque necessitatibus cum. Liber recteque duo no, ludus reprehendunt has an.
-        </li>
-        <li>
-          iriure posidonium consectetuer ad eam.
-        </li>
-        <li>
-          Nobis reprimique duo in, eam corpora mandamus
-        </li>
-        <li>
-          ex. In
-        </li>
-        <li>
-          quod euismod
-        </li>
-        <li>
-          eum, ne habemus cotidieque necessitatibus cum.
-        </li>
-        <li>
-          Liber recteque duo no, ludus reprehendunt has an.
-        </li>
-      </ul>
-      <p>
-        Now ordered:
-      </p>
-      <ol>
-        <li>
-          Item 1
-        </li>
-        <li>
-          Item
-        </li>
-        <li>
-          Item
-        </li>
-        <li>
-          Item
-        </li>
-      </ol>
-      <p>
-        A think that's it…
-      </p>
-      <figure
-        class="table"
-      >
-        <table>
-          <thead>
-            <tr>
-              <th>
-                Title 1
-              </th>
-              <th>
-                Title 1
-              </th>
-              <th>
-                Title 1
-              </th>
-              <th>
-                Title 1
-              </th>
-              <th>
-                Title 1
-              </th>
-              <th>
-                Title 1
-              </th>
-              <th>
-                Title 1
-              </th>
-              <th>
-                Title 1
-              </th>
-              <th>
-                Title 1
-              </th>
-              <th>
-                Title 1
-              </th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>
-                Item
-              </td>
-              <td>
-                Item
-              </td>
-              <td>
-                Item
-              </td>
-              <td>
-                Item
-              </td>
-              <td>
-                Item
-              </td>
-              <td>
-                Item
-              </td>
-              <td>
-                Item
-              </td>
-              <td>
-                Item
-              </td>
-              <td>
-                Item
-              </td>
-              <td>
-                Item
-              </td>
-            </tr>
-            <tr>
-              <td>
-                Item
-              </td>
-              <td>
-                Item
-              </td>
-              <td>
-                Item
-              </td>
-              <td>
-                Item
-              </td>
-              <td>
-                Item
-              </td>
-              <td>
-                Item
-              </td>
-              <td>
-                Item
-              </td>
-              <td>
-                Item
-              </td>
-              <td>
-                Item
-              </td>
-              <td>
-                Item
-              </td>
-            </tr>
-            <tr>
-              <td>
-                Item
-              </td>
-              <td>
-                Item
-              </td>
-              <td>
-                Item
-              </td>
-              <td>
-                Item
-              </td>
-              <td>
-                Item
-              </td>
-              <td>
-                Item
-              </td>
-              <td>
-                Item
-              </td>
-              <td>
-                Item
-              </td>
-              <td>
-                Item
-              </td>
-              <td>
-                Item
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </figure>
-      <p>
-        A video:
-      </p>
-      <figure
-        class="media"
-      >
-        <oembed
-          url="https://www.youtube.com/watch?v=oLmRV25eQvo"
-        />
-      </figure>
-      <p>
-        The end.
-      </p>
+        </p>
+        <p>
+          Solum consul scripserit in duo, an sit postea denique percipit. Facer ignota consequat nec ei, idque etiam corrumpit sit ut. In mucius definitionem quo, vis an nisl diam appellantur, hendrerit comprehensam ea per. Vix saepe fierent ut.
+        </p>
+        <p>
+          Cu mei summo copiosae. Et vim quaestio partiendo. Quot praesent imperdiet at duo. Sit probo causae ei. Ad ius nemore eruditi.
+        </p>
+        <p>
+          Mei in qualisque disputando. Adipisci philosophia et sed, mel diceret patrioque sententiae ea, iriure posidonium consectetuer ad eam. Nobis reprimique duo in, eam corpora mandamus ex. In quod euismod eum, ne habemus cotidieque necessitatibus cum. Liber recteque duo no, ludus reprehendunt has an.
+        </p>
+        <p>
+          Bullet:
+        </p>
+        <ul>
+          <li>
+            Mei in qualisque disputando. Adipisci philosophia et sed, mel diceret patrioque sententiae ea, iriure posidonium consectetuer ad eam. Nobis reprimique duo in, eam corpora mandamus ex. In quod euismod eum, ne habemus cotidieque necessitatibus cum. Liber recteque duo no, ludus reprehendunt has an.
+          </li>
+          <li>
+            iriure posidonium consectetuer ad eam.
+          </li>
+          <li>
+            Nobis reprimique duo in, eam corpora mandamus
+          </li>
+          <li>
+            ex. In
+          </li>
+          <li>
+            quod euismod
+          </li>
+          <li>
+            eum, ne habemus cotidieque necessitatibus cum.
+          </li>
+          <li>
+            Liber recteque duo no, ludus reprehendunt has an.
+          </li>
+        </ul>
+        <p>
+          Now ordered:
+        </p>
+        <ol>
+          <li>
+            Item 1
+          </li>
+          <li>
+            Item
+          </li>
+          <li>
+            Item
+          </li>
+          <li>
+            Item
+          </li>
+        </ol>
+        <p>
+          A think that's it…
+        </p>
+        <figure
+          class="table"
+        >
+          <table>
+            <thead>
+              <tr>
+                <th>
+                  Title 1
+                </th>
+                <th>
+                  Title 1
+                </th>
+                <th>
+                  Title 1
+                </th>
+                <th>
+                  Title 1
+                </th>
+                <th>
+                  Title 1
+                </th>
+                <th>
+                  Title 1
+                </th>
+                <th>
+                  Title 1
+                </th>
+                <th>
+                  Title 1
+                </th>
+                <th>
+                  Title 1
+                </th>
+                <th>
+                  Title 1
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  Item
+                </td>
+                <td>
+                  Item
+                </td>
+                <td>
+                  Item
+                </td>
+                <td>
+                  Item
+                </td>
+                <td>
+                  Item
+                </td>
+                <td>
+                  Item
+                </td>
+                <td>
+                  Item
+                </td>
+                <td>
+                  Item
+                </td>
+                <td>
+                  Item
+                </td>
+                <td>
+                  Item
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Item
+                </td>
+                <td>
+                  Item
+                </td>
+                <td>
+                  Item
+                </td>
+                <td>
+                  Item
+                </td>
+                <td>
+                  Item
+                </td>
+                <td>
+                  Item
+                </td>
+                <td>
+                  Item
+                </td>
+                <td>
+                  Item
+                </td>
+                <td>
+                  Item
+                </td>
+                <td>
+                  Item
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Item
+                </td>
+                <td>
+                  Item
+                </td>
+                <td>
+                  Item
+                </td>
+                <td>
+                  Item
+                </td>
+                <td>
+                  Item
+                </td>
+                <td>
+                  Item
+                </td>
+                <td>
+                  Item
+                </td>
+                <td>
+                  Item
+                </td>
+                <td>
+                  Item
+                </td>
+                <td>
+                  Item
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </figure>
+        <p>
+          A video:
+        </p>
+        <figure
+          class="media"
+        >
+          <oembed
+            url="https://www.youtube.com/watch?v=oLmRV25eQvo"
+          />
+        </figure>
+        <p>
+          The end.
+        </p>
+      </div>
     </div>
   </article>
 </div>
