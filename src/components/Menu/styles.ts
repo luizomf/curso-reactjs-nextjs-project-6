@@ -1,8 +1,24 @@
-import styled, { css } from 'styled-components';
+import styled, { css, DefaultTheme } from 'styled-components';
 import { Title as HeadingStyles } from '../Heading/styles';
 
-export const Wrapper = styled.div`
-  ${({ theme }) => css`
+type MenuBehaviorProps = {
+  menuVisible: boolean;
+};
+
+const wrapperChanger = (
+  menuVisible: MenuBehaviorProps['menuVisible'],
+  theme: DefaultTheme,
+) => css`
+  left: ${menuVisible ? '0' : '-30rem'};
+  overflow-y: ${menuVisible ? 'auto' : 'hidden'};
+
+  @media ${theme.media.lteMedium} {
+    left: ${menuVisible ? '0' : '-32rem'};
+  }
+`;
+
+export const Wrapper = styled.div<MenuBehaviorProps>`
+  ${({ theme, menuVisible }) => css`
     background: ${theme.colors.primary};
     padding: ${theme.spacings.large};
     display: flex;
@@ -15,6 +31,7 @@ export const Wrapper = styled.div`
     left: 0;
     transition: all 300ms ease-in-out;
     overflow-y: auto;
+    ${wrapperChanger(menuVisible, theme)}
   `}
 `;
 
@@ -38,8 +55,20 @@ export const Logo = styled.nav`
   `}
 `;
 
-export const OpenClose = styled.a`
-  ${({ theme }) => css`
+const buttonChanger = (
+  menuVisible: MenuBehaviorProps['menuVisible'],
+  theme: DefaultTheme,
+) => css`
+  left: ${menuVisible ? '26rem' : '1rem'};
+  color: ${menuVisible ? theme.colors.secondary : theme.colors.white};
+
+  @media ${theme.media.lteMedium} {
+    left: ${menuVisible ? '26rem' : '-0.5rem'};
+  }
+`;
+
+export const OpenClose = styled.a<MenuBehaviorProps>`
+  ${({ theme, menuVisible }) => css`
     position: fixed;
     top: ${theme.spacings.medium};
     color: ${theme.colors.white};
@@ -48,5 +77,7 @@ export const OpenClose = styled.a`
     width: 3rem;
     height: 3rem;
     left: 26rem;
+    transition: all 300ms ease-in-out;
+    ${buttonChanger(menuVisible, theme)}
   `}
 `;
