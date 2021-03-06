@@ -1,0 +1,254 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Menu /> should match snapshot 1`] = `
+.c1 {
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: inherit;
+}
+
+.c7 > img {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+}
+
+.c6 {
+  color: #000000;
+  line-height: 1.2;
+  font-size: 2.4rem;
+  text-transform: uppercase;
+}
+
+.c8 {
+  display: block;
+  color: #FFFFFF;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  margin-bottom: 1.6rem;
+  font-size: 1.8rem;
+  border-right: 0.5rem solid #000000;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.c8:hover {
+  border-right: 0.5rem solid #dc143c;
+  color: #dc143c;
+}
+
+.c2 {
+  background: #000000;
+  padding: 3.2rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  max-width: 32rem;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  overflow-y: auto;
+  left: -30rem;
+  overflow-y: hidden;
+}
+
+.c3 {
+  margin: auto;
+  width: 100%;
+}
+
+.c4 .c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: 0;
+  margin-bottom: 4.8rem;
+}
+
+.c4 .c5 img {
+  border: 0.5rem solid #dc143c;
+}
+
+.c0 {
+  position: fixed;
+  top: 2.4rem;
+  color: #FFFFFF;
+  background: #000000;
+  z-index: 2;
+  width: 3rem;
+  height: 3rem;
+  left: 26rem;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  left: 1rem;
+  color: #FFFFFF;
+}
+
+@media (max-width:768px) {
+  .c2 {
+    left: -32rem;
+  }
+}
+
+@media (max-width:768px) {
+  .c0 {
+    left: -0.5rem;
+  }
+}
+
+<div>
+  <a
+    aria-label="Open or close menu"
+    class="c0"
+    href="#"
+    title="Open or close menu"
+  >
+    <svg
+      aria-hidden="true"
+      aria-label="Open menu"
+      class="c1"
+      fill="currentColor"
+      focusable="false"
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M0 0h24v24H0V0z"
+        fill="none"
+      />
+      <path
+        d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+      />
+    </svg>
+  </a>
+  <div
+    aria-hidden="true"
+    class="c2"
+  >
+    <nav
+      class="c3"
+    >
+      <div
+        class="c4"
+      >
+        <h1
+          class="c5 c6"
+        >
+          <a
+            class="c7"
+            href="/"
+            target="_self"
+          >
+            <img
+              alt="Otávio Miranda"
+              src="/assets/images/otavio-miranda.png"
+            />
+          </a>
+        </h1>
+      </div>
+      <a
+        class="c8"
+        href="/home/1"
+        target="_self"
+      >
+        My jobs
+      </a>
+      <a
+        class="c8"
+        href="/home/2"
+        target="_self"
+      >
+        About me
+      </a>
+      <a
+        class="c8"
+        href="/home/3"
+        target="_self"
+      >
+        Services
+      </a>
+      <a
+        class="c8"
+        href="http://localhost/home/4"
+        target="_self"
+      >
+        External Link
+      </a>
+      <a
+        class="c8"
+        href="/home/5"
+        target="_self"
+      >
+        JavaScript
+      </a>
+      <a
+        class="c8"
+        href="/home/6"
+        target="_self"
+      >
+        Python
+      </a>
+      <a
+        class="c8"
+        href="/home/7"
+        target="_self"
+      >
+        Consectetur
+      </a>
+      <a
+        class="c8"
+        href="/home/8"
+        target="_self"
+      >
+        Text test
+      </a>
+      <a
+        class="c8"
+        href="/home/9"
+        target="_self"
+      >
+        Pac-man
+      </a>
+      <a
+        class="c8"
+        href="/home/10"
+        target="_self"
+      >
+        Star Wars
+      </a>
+      <a
+        class="c8"
+        href="/home/11"
+        target="_self"
+      >
+        A menu
+      </a>
+    </nav>
+  </div>
+</div>
+`;
