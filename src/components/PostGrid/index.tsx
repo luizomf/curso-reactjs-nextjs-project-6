@@ -1,14 +1,23 @@
+import { PostCard, PostCardProps } from '../PostCard';
 import * as Styled from './styles';
 
 export type PostGridProps = {
-  title?: string;
+  posts?: PostCardProps[];
 };
 
-export const PostGrid = ({ title }: PostGridProps) => {
+export const PostGrid = ({ posts = [] }: PostGridProps) => {
   return (
     <Styled.Wrapper>
-      <h1>Oi</h1>
-      <p>{title}</p>
+      {posts.length === 0 && (
+        <Styled.NotFound>Nenhum post encontrado aqui =(</Styled.NotFound>
+      )}
+
+      <Styled.Grid>
+        {posts.length > 0 &&
+          posts.map((post) => (
+            <PostCard key={`post-card-${post.id}`} {...post} />
+          ))}
+      </Styled.Grid>
     </Styled.Wrapper>
   );
 };

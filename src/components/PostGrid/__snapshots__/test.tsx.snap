@@ -1,0 +1,149 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PostGrid /> should match snapshot 1`] = `
+.c5 {
+  color: #000000;
+  line-height: 1.2;
+  font-size: 2.4rem;
+  text-transform: none;
+}
+
+.c2 .c4 {
+  margin: 0;
+  margin-top: calc(1.6rem - 0.6rem);
+  margin-bottom: 1.6rem;
+}
+
+.c2 a {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: inherit;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.c2:hover a {
+  color: #dc143c;
+}
+
+.c2:hover img {
+  opacity: 0.8;
+}
+
+.c3 {
+  max-width: 100%;
+  -webkit-transition: opacity 300ms ease-in-out;
+  transition: opacity 300ms ease-in-out;
+}
+
+.c0 {
+  width: 100%;
+}
+
+.c1 {
+  max-width: 120rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(28rem,1fr));
+  gap: 3.2rem;
+  padding: 3.2rem;
+}
+
+@media (max-width:360px) {
+  .c1 {
+    grid-template-columns: 1fr;
+  }
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+      >
+        <a
+          href="/post/vis-nobis-veritus-maluisset-id-nonumy-adversarium"
+        >
+          <img
+            alt="Vis nobis veritus maluisset id, nonumy adversarium"
+            class="c3"
+            src="https://res.cloudinary.com/dlizakp2a/image/upload/v1614698965/Ubuntu_gel_by_Midge_Mantissa_Sinnaeve_7caea7ddb4.jpg"
+          />
+        </a>
+        <h2
+          class="c4 c5"
+        >
+          <a
+            href="/post/vis-nobis-veritus-maluisset-id-nonumy-adversarium"
+          >
+            Vis nobis veritus maluisset id, nonumy adversarium
+          </a>
+        </h2>
+        <p
+          class=""
+        >
+          Fugit aliquip erroribus eu eam, an mel vidit doctus. Vis nobis veritus maluisset id, nonumy adversarium neglegentur est ut. Tation persius pri eu, modo minim fastidii mei no. Ad tota pertinax definiebas eam.
+        </p>
+      </div>
+      <div
+        class="c2"
+      >
+        <a
+          href="/post/sea-array-destructuring-dicat-fabulas-consetetur"
+        >
+          <img
+            alt="Sea Array Destructuring dicat fabulas consetetur "
+            class="c3"
+            src="https://res.cloudinary.com/dlizakp2a/image/upload/v1614699042/Origin_of_nature_by_Julian_Tomasini_dcfdd17cbe.jpg"
+          />
+        </a>
+        <h2
+          class="c4 c5"
+        >
+          <a
+            href="/post/sea-array-destructuring-dicat-fabulas-consetetur"
+          >
+            Sea Array Destructuring dicat fabulas consetetur 
+          </a>
+        </h2>
+        <p
+          class=""
+        >
+          Quod oblique mei ne, cetero delicatissimi sea cu, cu est harum dicit verterem. Tota forensibus ut usu, luptatum dignissim persecuti vel ex. Mea nostrud instructior cu, et referrentur theophrastus eum. Pro in iuvaret senserit.
+        </p>
+      </div>
+      <div
+        class="c2"
+      >
+        <a
+          href="/post/quod-oblique-mei-ne-cetero-delicatissimi-sea"
+        >
+          <img
+            alt="Quod oblique mei ne, cetero delicatissimi sea"
+            class="c3"
+            src="https://res.cloudinary.com/dlizakp2a/image/upload/v1614699042/Origin_of_nature_by_Julian_Tomasini_dcfdd17cbe.jpg"
+          />
+        </a>
+        <h2
+          class="c4 c5"
+        >
+          <a
+            href="/post/quod-oblique-mei-ne-cetero-delicatissimi-sea"
+          >
+            Quod oblique mei ne, cetero delicatissimi sea
+          </a>
+        </h2>
+        <p
+          class=""
+        >
+          Et sed legere rationibus, vitae evertitur ad eam. Eu amet vero officiis vis. Ad nullam pericula neglegentur sit, vix ei regione legendos argumentum. Mei an quas convenire, nobis dicunt mei ut. 
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
