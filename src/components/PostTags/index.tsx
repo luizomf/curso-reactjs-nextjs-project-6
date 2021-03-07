@@ -6,7 +6,11 @@ export type PostTagsProps = {
   tags?: PostTag[];
 };
 
-export const PostTags = ({ tags }: PostTagsProps) => {
+export const PostTags = ({ tags = [] }: PostTagsProps) => {
+  if (tags.length === 0) {
+    return null;
+  }
+
   return (
     <Styled.Wrapper>
       tags:

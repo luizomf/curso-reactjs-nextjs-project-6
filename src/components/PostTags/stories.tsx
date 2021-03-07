@@ -19,3 +19,11 @@ export const Template: Story<PostTagsProps> = (args) => {
     </div>
   );
 };
+
+export const NoTags: Story<PostTagsProps> = (args) => {
+  return (
+    <div style={{ padding: '0 2.4rem' }}>
+      <PostTags {...args} tags={undefined} />
+    </div>
+  );
+};

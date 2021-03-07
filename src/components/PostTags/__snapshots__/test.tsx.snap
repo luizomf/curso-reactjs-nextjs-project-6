@@ -56,3 +56,5 @@ exports[`<PostTags /> should should match snapshot 1`] = `
   </p>
 </div>
 `;
+
+exports[`<PostTags /> should should match snapshot with no tags 1`] = `<div />`;
