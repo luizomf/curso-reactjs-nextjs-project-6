@@ -406,6 +406,7 @@ exports[`<PostTemplate /> should match snapshot 1`] = `
 
 .c9 {
   margin-top: 6.4rem;
+  padding: 0 3.2rem;
 }
 
 .c13 {
@@ -437,6 +438,28 @@ exports[`<PostTemplate /> should match snapshot 1`] = `
     max-width: 100%;
     float: none;
     margin: 0;
+  }
+}
+
+@media (max-width:360px) {
+  .c10 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: column wrap;
+    -ms-flex-flow: column wrap;
+    flex-flow: column wrap;
+  }
+
+  .c10 > .c5 {
+    margin: 0 0 2.4rem 0;
+  }
+}
+
+@media (max-width:360px) {
+  .c11 {
+    margin-left: 0;
   }
 }
 
