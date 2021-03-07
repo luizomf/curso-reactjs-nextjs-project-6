@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PostTags /> should should match snapshot 1`] = `
+.c0 {
+  margin: 2.4rem 0;
+}
+
+.c0 span {
+  margin: 0 0 0 0.5rem;
+}
+
+.c0 span::before {
+  content: ' ';
+}
+
+.c0 span::after {
+  content: ', ';
+}
+
+.c0 span:last-child::after {
+  content: '';
+}
+
+.c0 a {
+  color: #dc143c;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.c0 a:hover {
+  -webkit-filter: brightness(50%);
+  filter: brightness(50%);
+}
+
+<div>
+  <p
+    class="c0"
+  >
+    tags:
+    <span>
+      <a
+        href="/tag/use-effect"
+      >
+        useEffect
+      </a>
+    </span>
+    <span>
+      <a
+        href="/tag/use-state"
+      >
+        useState
+      </a>
+    </span>
+  </p>
+</div>
+`;
