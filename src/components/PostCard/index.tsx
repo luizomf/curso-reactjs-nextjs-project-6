@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { StrapiImage } from '../../shared-typed/strapi-image';
+import { StrapiImage } from '../../shared-types/strapi-image';
 import { Heading } from '../Heading';
 import * as Styled from './styles';
 
