@@ -1,8 +1,8 @@
 import { request } from 'graphql-request';
-import { Settings } from 'node:http2';
 import config from '../config';
 import { GRAPHQL_QUERY } from '../graphql/queries';
 import { PostStrapi } from '../shared-types/post-strapi';
+import { SettingsStrapi } from '../shared-types/settings-strapi';
 
 export type LoadPostsVariables = {
   categorySlug?: string;
@@ -16,7 +16,7 @@ export type LoadPostsVariables = {
 };
 
 export type StrapiPostAndSettings = {
-  setting: Settings;
+  setting: SettingsStrapi;
   posts: PostStrapi[];
 };
 
