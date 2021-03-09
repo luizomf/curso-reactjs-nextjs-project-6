@@ -1,4 +1,4 @@
-import { useRouter } from 'next/dist/client/router';
+import { useRouter } from 'next/router';
 import React from 'react';
 import { Footer } from '../../components/Footer';
 import { GoTop } from '../../components/GoTop';
