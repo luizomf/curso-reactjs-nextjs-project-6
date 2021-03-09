@@ -9,6 +9,9 @@ export default {
   args: mock,
   parameters: {
     layout: 'fullscreen',
+    backgrounds: {
+      default: '',
+    },
   },
 } as Meta<PostsTemplateProps>;
 
