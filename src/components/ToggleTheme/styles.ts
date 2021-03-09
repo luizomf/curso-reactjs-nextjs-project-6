@@ -59,7 +59,7 @@ export const Slider = styled.span`
       height: 2.1rem;
       width: 2.1rem;
       left: 0.4rem;
-      bottom: 0.1rem;
+      bottom: 0.2rem;
       background: ${theme.colors.darkText};
       border-radius: 50%;
       transition: all 300ms ease-in-out;
