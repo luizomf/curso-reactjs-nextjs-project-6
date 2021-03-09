@@ -16,7 +16,7 @@ export const Comments = ({ id, slug, title, allowComments }: CommentsProps) => {
       <DiscussionEmbed
         shortname="blog-do-otavio-miranda"
         config={{
-          url: `/post/${slug}`,
+          url: `//${window.location.host}/post/${slug}/`,
           identifier: id,
           title: title,
           language: 'pt_BR',
