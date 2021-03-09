@@ -12,8 +12,6 @@ export type PostTemplateProps = {
 };
 
 export const PostTemplate = ({ settings, post }: PostTemplateProps) => {
-  console.log(post.allowComments);
-
   return (
     <BaseTemplate settings={settings}>
       <Post {...post} />

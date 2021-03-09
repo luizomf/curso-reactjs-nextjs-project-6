@@ -11,17 +11,16 @@ export type CommentsProps = {
 export const Comments = ({ id, slug, title, allowComments }: CommentsProps) => {
   if (!allowComments) return null;
 
+  const config = {
+    url: `https://curso-reactjs-nextjs-project-6.vercel.app/post/${slug}/`,
+    identifier: id,
+    title: title,
+    language: 'pt_BR',
+  };
+
   return (
     <Styled.Wrapper>
-      <DiscussionEmbed
-        shortname="blog-do-otavio-miranda"
-        config={{
-          url: `//${window.location.host}/post/${slug}/`,
-          identifier: id,
-          title: title,
-          language: 'pt_BR',
-        }}
-      />
+      <DiscussionEmbed shortname="blog-do-otavio-miranda" config={config} />
     </Styled.Wrapper>
   );
 };
