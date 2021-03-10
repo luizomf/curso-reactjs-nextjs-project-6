@@ -46,10 +46,12 @@ export const BaseTemplate = ({ settings, children }: BaseTemplateProps) => {
 
     inputTimeout.current = setTimeout(() => {
       setIsReady(false);
-      router.push({
-        pathname: '/search/',
-        query: { q: searchValue },
-      });
+      router
+        .push({
+          pathname: '/search/',
+          query: { q: searchValue },
+        })
+        .then(() => setIsReady(true));
     }, 600);
 
     return () => clearTimeout(inputTimeout.current);
@@ -82,10 +84,14 @@ export const BaseTemplate = ({ settings, children }: BaseTemplateProps) => {
           onChange={(e) => setSearchValue(e.target.value)}
           disabled={searchDisabled}
         />
-        <CheckCircleOutline
-          className="search-ok-icon"
-          aria-label="Input enabled"
-        />
+        {searchDisabled ? (
+          <Cancel className="search-cancel-icon" aria-label="Input Disabled" />
+        ) : (
+          <CheckCircleOutline
+            className="search-ok-icon"
+            aria-label="Input enabled"
+          />
+        )}
       </Styled.SearchContainer>
 
       <Styled.ContentContainer>{children}</Styled.ContentContainer>
