@@ -2,7 +2,9 @@
 
 exports[`<PostTags /> should should match snapshot 1`] = `
 .c0 {
-  margin: 2.4rem 0;
+  margin: 2.4rem auto;
+  max-width: 80rem;
+  padding: 0 3.2rem 0;
 }
 
 .c0 span {
