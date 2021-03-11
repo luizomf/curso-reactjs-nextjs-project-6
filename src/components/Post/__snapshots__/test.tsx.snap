@@ -1,8 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[
-  `<Post /> should render header, excerpt, cover, metadata and post 1`
-] = `
+exports[`<Post /> should render header, excerpt, cover, metadata and post 1`] = `
 .c6 {
   font-size: 1.6rem;
   color: #AAAAAA;
@@ -62,6 +60,10 @@ exports[
 .c9 {
   font-size: calc(1.6rem + 0.2rem);
   line-height: 1.5;
+}
+
+.c9 iframe[src*='ads'] {
+  display: none;
 }
 
 .c9 p {

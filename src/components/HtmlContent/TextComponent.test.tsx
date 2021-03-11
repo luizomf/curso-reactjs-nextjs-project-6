@@ -16,6 +16,10 @@ describe('<HtmlContent />', () => {
         line-height: 1.5;
       }
 
+      .c1 iframe[src*='ads'] {
+        display: none;
+      }
+
       .c1 p {
         margin: 2.4rem 0;
       }

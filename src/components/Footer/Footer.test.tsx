@@ -12,6 +12,10 @@ describe('<Footer />', () => {
         line-height: 1.5;
       }
 
+      .c2 iframe[src*='ads'] {
+        display: none;
+      }
+
       .c2 p {
         margin: 2.4rem 0;
       }
