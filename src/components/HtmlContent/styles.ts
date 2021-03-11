@@ -21,7 +21,7 @@ export const Container = styled.div`
       filter: brightness(50%);
     }
 
-    code {
+    /* code {
       font-family: monospace;
       color: ${theme.colors.secondary};
       font-size: ${theme.font.sizes.small};
@@ -44,7 +44,7 @@ export const Container = styled.div`
     pre code {
       color: inherit;
       background: inherit;
-    }
+    } */
 
     img {
       max-width: 100%;
