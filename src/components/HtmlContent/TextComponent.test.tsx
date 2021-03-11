@@ -403,7 +403,6 @@ describe('<HtmlContent />', () => {
             Children
           </b>
         </div>
-        ;
       </div>
     `);
   });

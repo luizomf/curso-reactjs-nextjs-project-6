@@ -12,6 +12,14 @@ export const HtmlContent = ({ html }: HtmlContentProps) => {
     if (typeof window !== 'undefined') {
       Prism.highlightAll();
     }
+
+    const removeAds = setTimeout(() => {
+      document
+        .querySelectorAll('iframe[src*=ads]')
+        .forEach((el) => el.remove());
+    }, 1000);
+
+    return () => clearTimeout(removeAds);
   }, []);
 
   return (

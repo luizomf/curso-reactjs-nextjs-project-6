@@ -414,7 +414,6 @@ describe('<Footer />', () => {
                 Olá
               </h1>
             </div>
-            ;
           </div>
         </footer>
       </div>
